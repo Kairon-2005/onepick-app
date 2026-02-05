@@ -15,50 +15,6 @@
 - **数据库**: Neon Postgres + Drizzle ORM
 - **部署**: Vercel + Cloudflare DNS
 
-## 快速开始
-
-### 1. 安装依赖
-
-```bash
-npm install
-```
-
-### 2. 配置环境变量
-
-复制 `.env.example` 为 `.env`：
-
-```bash
-cp .env.example .env
-```
-
-然后填入你的 Neon 数据库连接字符串：
-
-```env
-DATABASE_URL=your_neon_postgres_connection_string
-```
-
-### 3. 推送数据库 Schema
-
-```bash
-npm run db:push
-```
-
-### 4. 初始化数据（可选）
-
-```bash
-npx tsx scripts/seed.ts
-```
-
-这会创建 2026 Q1 和 Q2 两个季度。
-
-### 5. 启动开发服务器
-
-```bash
-npm run dev
-```
-
-访问 http://localhost:3000
-
 ## 项目结构
 
 ```
@@ -135,14 +91,9 @@ onepick-app/
   - Verify Page (查询投票页面)
   - Change Page (修改投票页面)
   - Leaderboard Page (榜单页面)
-  - Editorial Magazine 设计风格
-- [ ] Phase 4: Dashboard 可视化
+- [ ] Phase 4: Dashboard 可视化 ✅
 - [ ] Phase 5: 部署与测试
 - [ ] Phase 6: 优化与加固
-
-## API 测试
-
-查看 [API_TESTING.md](./API_TESTING.md) 了解如何测试 API。
 
 ## License
 
